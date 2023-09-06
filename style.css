@@ -1,0 +1,67 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: url("header.jpg") no-repeat center center fixed; /* background image, no-repeat means that the image will not be repeated,
+     center center means that the image will be centered both horizontally and vertically, fixed means that the background image will not scroll with the rest of the page */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; /* cover means that the background image will be as small as possible while ensuring that
+    both dimensions are greater than or equal to the corresponding size of the container */
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 auto; /* 0 from top and bottom, auto from left and right */
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+}
+
+
+.btn {
+    padding: 1rem 2rem; /* 1rem from top and bottom, 2rem from left and right */
+    border-radius: 30px; /* 2rem border radius */
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #fff;
+    margin-top: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #000;
+    color: #fff;
+    border: 4px solid #fff;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60%;
+    margin-bottom: 0;
+}
+
+hr {
+    margin: 0px auto;
+    border: 3px solid #F05F44;
+    max-width: 100px;
+    opacity: 1;
+    width: 100%;
+}
